@@ -1,3 +1,8 @@
-<p>
-  login works!
-</p>
+<div class="ui-g">
+    <div class="ui-g-6">UserName</div>
+    <div class="ui-g-6"><input type="text" pInputText [(ngModel)]="userName"/></div>
+    <div class="ui-g-6">Password</div>
+    <div class="ui-g-6"><input type="password" pPassword [(ngModel)]="password"/></div>
+    <div class="ui-g-6"><input type="button" pButton  (click)="onSubmit()" label="Login" value="Login"/></div>
+    <div class="ui-g-6"><input type="button" pButton t label="Reset" value="Reset"/></div>
+</div>

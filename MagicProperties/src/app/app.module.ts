@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
@@ -21,7 +22,8 @@ import {PasswordModule, InputTextModule} from 'primeng/primeng';
     BrowserModule,
     appRouterModule,
     PasswordModule,
-    InputTextModule
+    InputTextModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
