@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="/home/jagan/Angular IDE 2017 CI" version="1.8.0_121">
+<bootpath>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/resources.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/rt.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/sunrsasign.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/jsse.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/jce.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/charsets.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/jfr.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="/home/jagan/Angular IDE 2017 CI/jre" version="1.8.0_121">
+<bootpath>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/resources.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/rt.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/sunrsasign.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/jsse.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/jce.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/charsets.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/jfr.jar"/>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/ext"/>
+<entry path="/usr/java/packages/lib/ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="/home/jagan/Angular IDE 2017 CI/jre/lib/endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>
