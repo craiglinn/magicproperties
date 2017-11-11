@@ -1,3 +1,14 @@
-<p>
-  register works!
-</p>
+<div ng-app="">
+	<form (ngSubmit)="onSubmit()">
+		<div>
+			<span>First Name: <input type="text" ng-model="firstName"></span>
+			<span>Last Name: <input type="text" ng-model="lastName"></span>
+			<span>Email: <input type="text" ng-model="email"></span> <span>Telephone
+				Number: <input type="text" ng-model="teleponeNumber">
+			</span> <span> Mobile Number: <input type="text"
+				ng-model="mobileNumber">
+			</span>
+		</div>
+		<button type="submit" class="btn btn-primary" >Submit</button>
+	</form>
+</div>
