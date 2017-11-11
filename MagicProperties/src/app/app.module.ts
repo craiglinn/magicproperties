@@ -7,6 +7,7 @@ import { LandlorddashboardComponent } from './components/landlorddashboard/landl
 import { AdmindashboardComponent } from './components/admindashboard/admindashboard.component';
 import { appRouterModule } from './app.routes';
 import { LoginComponent } from './components/login/login.component';
+import {PasswordModule, InputTextModule} from 'primeng/primeng';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,9 @@ import { LoginComponent } from './components/login/login.component';
   ],
   imports: [
     BrowserModule,
-    appRouterModule
+    appRouterModule,
+    PasswordModule,
+    InputTextModule
   ],
   providers: [],
   bootstrap: [AppComponent]
