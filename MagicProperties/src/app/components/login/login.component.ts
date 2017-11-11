@@ -14,6 +14,12 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
   }
   onSubmit() {
-  this.router.navigateByUrl('landlordDashboard');
+    console.log('we are here:' + this.userName);
+    if ( this.userName === 'landlord' ) {
+      this.router.navigateByUrl('landlordDashboard');
+    }
+     if ( this.userName === 'admin' ) {
+      this.router.navigateByUrl('adminDashboard');
+  }
   }
 }
