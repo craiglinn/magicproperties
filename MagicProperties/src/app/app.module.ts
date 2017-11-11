@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { RegisterComponent } from './components/register/register.component';
+import { LandlorddashboardComponent } from './components/landlorddashboard/landlorddashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterComponent
+    RegisterComponent,
+    LandlorddashboardComponent
   ],
   imports: [
     BrowserModule
